@@ -1,0 +1,298 @@
+<DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+      />
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Grotesk:wght@300..700&display=swap"
+        rel="stylesheet"
+      />
+      <title>General QnA</title>
+      <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+      <div class="navParent">
+        <p class="logo">The Curry Story.</p>
+        <div class="options">
+          <p>Menu</p>
+          <p>Appointment</p>
+          <p>Contact</p>
+          <p>About Us</p>
+        </div>
+        <div class="restLogo">
+          <i class="fa-solid fa-utensils"></i>
+        </div>
+      </div>
+
+      <div class="menuHeading">
+        <p>Our Menu</p>
+      </div>
+      <div class="menuOptions">
+        <button onclick="snacks()" class="btn btn1">Snacks</button>
+        <button onclick="drinks()" class="btn btn2">Drinks</button>
+        <button onclick="lunch()" class="btn btn3">Lunch</button>
+        <button onclick="dinner()" class="btn btn4">Dinner</button>
+      </div>
+
+      <div class="snacksMain">
+        <div class="portion1">
+          <div class="dish1">
+            <div class="img1">
+              <img class="img" src="pic1.jpg" alt="" />
+            </div>
+            <div class="text1">
+              <p class="p">Crispy Fiesta Nachos</p>
+              <hr />
+              <p class="p2">
+                A vibrant platter of crispy tortilla chips generously layered
+                with melted cheese, tangy salsa, jalapeños, and a dollop of sour
+                cream.
+              </p>
+            </div>
+          </div>
+
+          <div class="dish1">
+            <div class="img1">
+              <img class="img" src="pic2.jpg" alt="" />
+            </div>
+            <div class="text1">
+              <p class="p">Golden Potato Poppers</p>
+              <hr />
+              <p class="p2">
+                Small and Delightful bite-sized potato slices with a crispy
+                golden coating, oozing with a cheesy herb filling that melts in
+                your mouth.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="portion2">
+          <div class="dish1">
+            <div class="img1">
+              <img class="img" src="pic3.jpg" alt="" />
+            </div>
+            <div class="text1">
+              <p class="p">Spicy Chicken Wings</p>
+              <hr />
+              <p class="p2">
+                Juicy and tender chicken wings marinated in a smoky, spicy blend
+                of sauces, fried to perfection, and served with a creamy dipping
+                sauce.
+              </p>
+            </div>
+          </div>
+
+          <div class="dish1">
+            <div class="img1">
+              <img class="img" src="pic4.jpg" alt="" />
+            </div>
+            <div class="text1">
+              <p class="p">Mozzarella Sticks</p>
+              <hr />
+              <p class="p2">
+                Soft and gooey mozzarella cheese encased in a crispy breaded
+                shell, paired with a side of rich marinara sauce for dipping.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="drinksMain">
+        <div class="portion1">
+          <div class="dish1">
+            <div class="img1">
+              <img class="img" src="pic5.jpg" alt="" />
+            </div>
+            <div class="text1">
+              <p class="p">Mango Tango Smoothie</p>
+              <hr />
+              <p class="p2">
+                Scious tropical smoothie made with fresh mangoes, creamy yogurt,
+                a drizzle of honey, and a hint of lime for a refreshing zing.
+              </p>
+            </div>
+          </div>
+
+          <div class="dish1">
+            <div class="img1">
+              <img class="img" src="pic6.jpg" alt="" />
+            </div>
+            <div class="text1">
+              <p class="p">Berry Blast Cooler</p>
+              <hr />
+              <p class="p2">
+                A vibrant medley of mixed berries blended with crushed ice and a
+                splash of lemon juice for a perfect summer cooler.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="portion2">
+          <div class="dish1">
+            <div class="img1">
+              <img class="img" src="pic7.jpg" alt="" />
+            </div>
+            <div class="text1">
+              <p class="p">Classic Mojito Fizz</p>
+              <hr />
+              <p class="p2">
+                A refreshing combination of mint leaves, lime, sugar, and
+                sparkling soda and love, served over crushed ice for a bubbly
+                treat.
+              </p>
+            </div>
+          </div>
+
+          <div class="dish1">
+            <div class="img1">
+              <img class="img" src="pic8.jpg" alt="" />
+            </div>
+            <div class="text1">
+              <p class="p">Choco-Latte Delight</p>
+              <hr />
+              <p class="p2">
+                Creamy and tasty blend of rich high quality chocolate and
+                espresso, topped with whipped cream and a sprinkle of cocoa.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="lunchMain">
+        <div class="portion1">
+          <div class="dish1">
+            <div class="img1">
+              <img class="img" src="pic9.jpg" alt="" />
+            </div>
+            <div class="text1">
+              <p class="p">Herbed Grilled Chicken Bowl</p>
+              <hr />
+              <p class="p2">
+                Juicy grilled chicken marinated with a blend of fresh herbs and
+                spices, served on a bed of seasoned rice and sautéed vegetables.
+              </p>
+            </div>
+          </div>
+
+          <div class="dish1">
+            <div class="img1">
+              <img class="img" src="pic10.jpg" alt="" />
+            </div>
+            <div class="text1">
+              <p class="p">Spaghetti Pomodoro Classic</p>
+              <hr />
+              <p class="p2">
+                A comforting plate of al dente spaghetti tossed in a rich, tangy
+                tomato basil sauce, garnished with parmesan cheese and fresh
+                basil.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="portion2">
+          <div class="dish1">
+            <div class="img1">
+              <img class="img" src="pic11.jpg" alt="" />
+            </div>
+            <div class="text1">
+              <p class="p">Vegetable Stir-Fry Delight</p>
+              <hr />
+              <p class="p2">
+                A colorful medley of fresh vegetables stir-fried in a savory
+                soy-garlic sauce, served with a side of steamed jasmine rice.
+              </p>
+            </div>
+          </div>
+
+          <div class="dish1">
+            <div class="img1">
+              <img class="img" src="pic12.jpg" alt="" />
+            </div>
+            <div class="text1">
+              <p class="p">Butter Chicken Bonanza</p>
+              <hr />
+              <p class="p2">
+                Tender chicken pieces cooked in a creamy, spiced tomato gravy,
+                served with warm naan or basmati rice. Orignally From Pakistan
+                and India.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="dinnerMain">
+        <div class="portion1">
+          <div class="dish1">
+            <div class="img1">
+              <img class="img" src="pic13.jpg" alt="" />
+            </div>
+            <div class="text1">
+              <p class="p">Classic Roast Chicken Dinner</p>
+              <hr />
+              <p class="p2">
+                A succulent whole roast chicken seasoned with herbs, served with
+                roasted potatoes, vegetables, and a rich gravy with lots of
+                spices.
+              </p>
+            </div>
+          </div>
+
+          <div class="dish1">
+            <div class="img1">
+              <img class="img" src="pic14.jpg" alt="" />
+            </div>
+            <div class="text1">
+              <p class="p">Beef Lasagna Layers</p>
+              <hr />
+              <p class="p2">
+                Layers of pasta, seasoned ground soft beef, creamy béchamel
+                sauce, and melted cheese baked to perfection and taste.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="portion2">
+          <div class="dish1">
+            <div class="img1">
+              <img class="img" src="pic15.jpg" alt="" />
+            </div>
+            <div class="text1">
+              <p class="p">Shrimp Alfredo Pasta</p>
+              <hr />
+              <p class="p2">
+                Fettuccine pasta tossed in a creamy Alfredo sauce, topped with
+                soft sautéed shrimp and with a sprinkle of delighted parsley.
+              </p>
+            </div>
+          </div>
+
+          <div class="dish1">
+            <div class="img1">
+              <img class="img" src="pic16.jpg" alt="" />
+            </div>
+            <div class="text1">
+              <p class="p">Vegetarian Stuffed Peppers</p>
+              <hr />
+              <p class="p2">
+                Bell peppers filled with a mix of quinoa, black and white beans,
+                corn, and spices, baked and topped with melted tasty cheese.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <script src="app.js"></script>
+    </body></html
+></DOCTYPE>
